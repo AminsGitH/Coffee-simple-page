@@ -1,11 +1,11 @@
 :root {
   --backgroundColor: #111315;
-  --containerColor: #1B1D1F;
-  --buttonColor:#6F757C;
-  --priceBackground:#BEE3CC;
-  --fontColor: #FEF7EE;
-  --popularBackground: #F6C768;
-  --soldOut: #ED735D;
+  --containerColor: #1b1d1f;
+  --buttonColor: #6f757c;
+  --priceBackground: #bee3cc;
+  --fontColor: #fef7ee;
+  --popularBackground: #f6c768;
+  --soldOut: #ed735d;
 }
 * {
   box-sizing: border-box;
@@ -17,7 +17,9 @@ body {
 .main-section {
   position: relative;
 }
-.drink-h1 , .description, h1 {
+.drink-h1,
+.description,
+h1 {
   color: var(--fontColor);
 }
 
@@ -31,11 +33,14 @@ body {
   text-align: center;
   position: absolute;
   border-radius: 60px;
-  
 }
 .product img:hover {
   scale: 1.1;
   transition: 0.5s;
+}
+
+.drink-image {
+  border-radius: 30px;
 }
 .drink-rating {
   color: var(--fontColor);
@@ -57,13 +62,14 @@ body {
 .popular {
   background-color: var(--popularBackground);
   color: var(--backgroundColor);
-  border-radius: 20px;
+  border-radius: 10px;
   position: absolute;
-  width: 100px;
+  width: 110px;
+  padding-top: 5px;
+  margin: 10px;
 }
 .sold {
   color: var(--soldOut);
- font-weight: bold;
- margin-left: 20px;
-  
+  font-weight: bold;
+  margin-left: 20px;
 }

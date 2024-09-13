@@ -12,7 +12,7 @@ const Product = (props) => {
         {props.rating ? (
           <img
             src="/dccl--frontend-simple-coffee-listing/Star_fill.svg"
-            alt="rating"
+            alt="⭐"
           />
         ) : (
           <span className="text-light">No Ratings Available</span>
